@@ -1,0 +1,87 @@
+@charset "utf-8"; 
+
+/* 
+CIS 162 Project 1-4
+
+Author: Aldo Cabrera
+Date: 02/23/2024
+*/
+
+
+/* HTML and Body Styles */
+html{
+    background-color: black;
+}
+body{
+    color:white; 
+    margin-left: auto;  
+    margin-right: auto;
+    max-width: 960px;  
+    min-width: 640px;  
+    width: 85%;   
+}
+
+/* Left Column Styles */
+
+div#leftColumn {  
+    clear: left;  
+    float: left;
+    padding: 0em; 
+    width: 33%;  
+} 
+
+/* Right Column Styles */
+
+div#rightColumn {  
+    clear: right;  
+    float: right;
+    padding: 0em; 
+    width: 33%;  
+} 
+
+
+/* Heading Style */
+h1 {
+    text-align: center;
+    color:rgb(224, 164, 246);
+}
+h2 {
+    color:rgb(230, 198, 242);
+}
+
+/* Navigation Styles */	
+
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(103, 103, 103);
+}
+
+.navbar li{
+    float: left;
+}
+
+/* Footer Styles */
+footer {  
+    background-color: rgb(0, 0, 0);
+    clear: left;  
+}  
+footer::after {  
+    clear: both;  
+    content:"";  
+    display: table;  
+} 
